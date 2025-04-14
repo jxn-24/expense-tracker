@@ -6,9 +6,9 @@ import './App.css';
 
 function App() {
   const [expenses, setExpenses] = useState([
-    { id: 1, name: 'Groceries', description: 'Weekly shopping', category: 'Food', amount: 150, date: '2023-05-15' },
-    { id: 2, name: 'Electricity', description: 'Monthly bill', category: 'Utilities', amount: 80, date: '2023-05-10' },
-    { id: 3, name: 'Movie', description: 'Weekend entertainment', category: 'Entertainment', amount: 25, date: '2023-05-12' },
+    { id: 1, name: 'Groceries', description: 'Weekly shopping', category: 'Food', amount: 12500, date: '2025-04-14' },
+    { id: 2, name: 'Electricity', description: 'Monthly bill', category: 'Utilities', amount: 1000, date: '2025-04-06' },
+    { id: 3, name: 'Amapiano event', description: 'Weekend entertainment', category: 'Entertainment', amount: 5400, date: '2024-04-30' },
   ]);
 
   const [searchTerm, setSearchTerm] = useState('');
