@@ -10,3 +10,39 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# Expense Tracker
+
+Description: A tracking application to check and analyse on expenses built with React and Vite.
+
+## Features
+- Addition of new expenses
+- Filter expenses by typing into the search bar
+- Deletion of certain expenses
+-
+
+## Technologies Used
+- React
+- Vite
+- JSON Server (for mock API)
+- Vanilla CSS
+- React Router
+
+## Deployment
+- Deployed on Vercel
+- Live demo: https://vercel.com/jackson-motendes-projects/expense-tracker
+
+## Set Up
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+

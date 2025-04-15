@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ExpenseForm from './ExpenseForm.jsx';
 import ExpenseTable from './ExpenseTable.jsx';
 import SearchBar from './SearchBar.jsx';
@@ -62,7 +62,7 @@ function App() {
       </div>
       <div className="controls-section">
         <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-        {/* <SortControls onSort={handleSort} sortConfig={sortConfig} /> */}
+        
       </div>
       
       <div className="table-section">
